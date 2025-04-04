@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Box</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- Apne CSS file ka path yahan do -->
+  <style>
+    /* Agar tum inline CSS hi chahte ho to yeh sab CSS yahin paste kar sakte ho */
+  </style>
+</head>
+<body>
+
+  <div class="frame">
+    <div class="center">
+      
+      <div class="title">
+        <h1>Upload your file</h1>
+      </div>
+
+      <form method="POST" enctype="multipart/form-data">
+        <div class="dropzone">
+          <img src="https://www.svgrepo.com/show/12614/upload.svg" alt="upload" class="upload-icon" width="40" height="40">
+          <input type="file" class="upload-input" name="file">
+        </div>
+
+        <button type="submit" class="btn">Upload</button>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>
